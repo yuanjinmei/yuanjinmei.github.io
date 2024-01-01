@@ -1,0 +1,156 @@
+*{padding: 0;margin:0}
+ul,ol,dl{list-style: none;}
+a{color: black;text-decoration: none;}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.cf::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+.w{
+	width: 1200px;
+	margin:0 auto;
+}
+
+/*题目*/
+.title{
+	background: #f1d181;
+	height: 80px;
+}
+.tm{
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	color: white;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+/*大图*/
+.pic{
+	height: 500px;
+}
+.pic img{
+	height: 500px;
+	width: 1200px;
+}
+
+/*导航*/
+.nav{
+	height: 80px;
+	background: #f1d181;
+}
+.nav>div{
+	width: 400px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 28px;
+}
+.d2{
+	position: relative;
+}
+.ejcd1{
+	width: 200px;
+	height: 160px;
+	z-index: 10;
+	background: white;
+	position: absolute;
+	top:80px;
+	left:100px;
+
+	display: none;
+}
+/*鼠标移入 文段 显示 诗集-语录*/
+.d2:hover .ejcd1{
+	display:block;
+}
+.btn1,.btn2{
+	border: 1px solid black;
+	width: 200px;
+	height: 80px;
+	background:#f8f7c4;
+}
+.d3{
+	position: relative;
+}
+.d3:hover .ejcd2{
+	display: block;
+}
+.ejcd2{
+	z-index: 10;
+	background: white;
+	overflow: scroll;
+	display: none;
+	position: absolute;
+	top:80px;
+	left:-600px;
+	width: 960px;
+	height: 700px;
+}
+.tx{
+	width: 1800px;
+	height: 700px;
+	padding-top:120px;
+	background:#f8f7c4;
+
+}
+.zuo{
+	width: 400px;
+	height: 700px;
+}
+.tu{
+	margin-left: 120px;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+.tu img{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+.zh{
+	font-size: 32px;
+	width: 300px;
+	height: 150px;
+	line-height: 150px;
+	text-align: right;
+}
+.you{
+	padding-top: 280px;
+	width: 260px;
+	height: 420px;
+}
+.z,.m{
+	border-radius: 10px;
+	width: 260px;
+	height: 75px;
+	line-height: 75px;
+}
+
+
+.cont{
+	width: 1100px;
+	height: 1800px;
+	background: #fafadd;
+	padding-top: 30px;
+	padding-right: 40px;
+	padding-left: 60px;
+	margin:0 auto;
+}
+.p1{
+
+	font-size: 28px;
+	line-height: 55px;
+}
+.p2{
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 55px;
+}
